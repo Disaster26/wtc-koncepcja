@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Klub kolarski w Warszawie od 1886 roku | Warszawskie Towarzystwo Cyklistów</title>
+<meta name="description" content="Warszawskie Towarzystwo Cyklistów (1886) - jedno z najstarszych towarzystw sportowych w Polsce. Rajdy i wyjazdy rowerowe, sezon kolarski, historia od 1886 roku. ul. Jerzego Waldorffa 34, Warszawa, tel. 794 000 544.">
+<meta name="theme-color" content="#114520">
+<link rel="icon" href="img/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="img/logo-192.png">
+<link rel="preload" as="image" href="img/hero-m-760.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w, img/hero-m-1080.webp 1080w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/slab-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Slab";font-weight:600 800;font-display:swap;src:url(fonts/slab-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2026}
+@font-face{font-family:"Slab";font-weight:600 800;font-display:swap;src:url(fonts/slab-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Inter";font-weight:400 700;font-display:swap;src:url(fonts/inter-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2026}
+@font-face{font-family:"Inter";font-weight:400 700;font-display:swap;src:url(fonts/inter-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Slab fb";src:local("Georgia");size-adjust:104%;ascent-override:98%;descent-override:26%}
+:root{--zi:#114520;--zi2:#0b2f16;--zo:#f3e823;--cz:#b82020;--sz:#dcdddf;--ink:#16211a;--mut:#4d5650;--g:#f2f3f5;--line:#d9dcdf;--hh:64px;--w:min(calc(100vw - 32px),1760px)}
+@media (min-width:900px){:root{--hh:88px;--w:min(92vw,1760px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:clamp(16px,.22vw + 15px,19px);line-height:1.62;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:Slab,"Slab fb",Georgia,serif;font-weight:700;line-height:1.1;letter-spacing:-.01em}
+h2{font-size:clamp(30px,2.9vw,56px)}
+h3{font-size:clamp(19px,1.15vw,23px);line-height:1.25}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:56px;padding:0 26px;background:var(--zo);color:var(--zi);font:700 1.02rem/1 Inter,Arial,sans-serif;text-decoration:none;border:0;border-radius:3px;box-shadow:inset 0 -3px 0 rgba(17,69,32,.35);cursor:pointer;transition:background .15s,transform .15s}
+.btn:hover{background:#fff13a}.btn:active{transform:translateY(1px)}
+.btn svg{width:20px;height:20px}
+/* naglowek */
+.hd{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.hd .wrap{height:var(--hh);display:flex;align-items:center;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.logo img{width:48px;height:48px;flex:none}
+.logo span{font-family:Slab,"Slab fb",Georgia,serif;font-weight:700;font-size:15px;line-height:1.15;color:var(--zi)}
+.logo small{display:block;font:600 12.5px/1.3 Inter,Arial,sans-serif;color:var(--mut);margin-top:2px}
+.nav{display:none;margin-left:auto;gap:clamp(16px,1.6vw,34px);align-items:center}
+.nav a{font-weight:600;font-size:.95rem;text-decoration:none;color:var(--ink);padding:8px 0;border-bottom:3px solid transparent}
+.nav a:hover{border-bottom-color:var(--zo)}
+.nav a.akt{border-bottom-color:var(--cz)}
+.hd .tel{display:none;font-weight:700;text-decoration:none;color:var(--zi);white-space:nowrap}
+.hd .btn{display:none;min-height:48px;padding:0 20px;font-size:.95rem}
+.burger{margin-left:auto;width:48px;height:48px;border:1px solid var(--line);background:#fff;border-radius:3px;display:grid;place-items:center;cursor:pointer}
+.burger i,.burger i:before,.burger i:after{display:block;width:22px;height:2px;background:var(--zi);position:relative;content:""}
+.burger i:before{position:absolute;top:-7px}.burger i:after{position:absolute;top:7px}
+.mob{display:none;position:fixed;top:var(--hh);left:0;right:0;bottom:0;background:#fff;z-index:49;padding:12px 16px 28px;overflow:auto}
+.mob.on{display:block}
+.mob a{display:block;padding:15px 2px;border-bottom:1px solid var(--line);font-family:Slab,"Slab fb",Georgia,serif;font-weight:700;font-size:21px;text-decoration:none;color:var(--zi)}
+.mob .btn{display:flex;margin-top:22px;width:100%;border:0;font-family:Inter,Arial,sans-serif;font-size:1.02rem}
+.mob p{margin-top:18px;color:var(--mut)}
+@media (min-width:1100px){.nav{display:flex}.burger{display:none}.hd .btn{display:inline-flex}.logo img{width:64px;height:64px}.logo span{font-size:17px}}
+@media (min-width:1440px){.hd .tel{display:inline}}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--hh) - 1px);display:flex;color:#fff;overflow:hidden;background:var(--zi)}
+.hero picture,.hero>picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero>picture img{object-fit:cover;object-position:50% 100%}
+.hero:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,38,18,.92) 0,rgba(9,38,18,.8) 44%,rgba(9,38,18,.35) 62%,rgba(9,38,18,0) 74%)}
+.hero-in{position:relative;z-index:2;padding:30px 0 40px;display:flex;flex-direction:column;align-items:flex-start}
+.hero h1{font-size:clamp(31px,4.2vw,80px);max-width:15ch;text-wrap:balance}
+.hero .lead{margin-top:16px;max-width:40ch;font-size:clamp(16.5px,.45vw + 15px,22px);line-height:1.5;color:#eef3ef}
+.hero .btn{margin-top:24px}
+.hero .adr{margin-top:12px;font-size:.92rem;color:#e6eee8;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+@media (min-width:761px){
+ .hero>picture img{object-position:50% 80%}
+ .hero:before{background:linear-gradient(90deg,rgba(9,38,18,.88) 0,rgba(9,38,18,.66) 32%,rgba(9,38,18,0) 62%),linear-gradient(0deg,rgba(9,38,18,.35) 0,rgba(9,38,18,0) 30%)}
+ .hero-in{justify-content:center;padding:64px 0 96px}
+ .hero h1{max-width:14ch}
+}
+/* obrecz: motyw kola z pieczeci */
+.obr{position:absolute;z-index:1;pointer-events:none;color:var(--zo)}
+.hero .obr{display:none}
+@media (min-width:761px){.hero .obr{display:block;width:min(58vw,1100px);left:-14vw;top:50%;transform:translateY(-50%);opacity:.5}}
+/* sekcje */
+.sek{padding:clamp(56px,7vw,128px) 0}
+.sz{background:var(--g)}
+.glowa{display:grid;gap:14px;margin-bottom:clamp(28px,3vw,52px);max-width:62ch}
+.glowa p{color:var(--mut);font-size:clamp(16.5px,.35vw + 15px,20px)}
+@media (min-width:1100px){.glowa.bok{max-width:none;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end;gap:6vw}}
+/* czym sie zajmujemy */
+.tor{display:grid;grid-auto-flow:column;grid-auto-columns:min(82vw,var(--k,420px));gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;cursor:grab;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor>*{scroll-snap-align:start}
+.tor.drag{scroll-snap-type:none;cursor:grabbing}
+.tor.drag *{pointer-events:none}
+.dz{--k:clamp(300px,22vw,520px)}
+@media (min-width:1100px){.dz{grid-auto-flow:row;grid-template-columns:repeat(4,minmax(0,1fr));overflow:visible;cursor:auto}}
+.kd{background:#fff;display:flex;flex-direction:column}
+.kd .fot{position:relative;aspect-ratio:4/3;overflow:hidden;border:0;padding:0;background:var(--g);cursor:zoom-in;display:block;width:100%}
+.kd .fot img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.kd .fot:hover img{transform:scale(1.03)}
+.kd .tx{padding:20px 2px 0;border-top:4px solid var(--zi);margin-top:-4px;position:relative}
+.kd h3{color:var(--zi)}
+.kd p{margin-top:8px;color:var(--mut);font-size:.98rem}
+.kd .pod{display:block;margin-top:10px;font-size:.84rem;color:var(--mut)}
+/* strzalki */
+.strz{display:flex;gap:10px;margin-top:22px}
+.strz button{width:52px;height:52px;border:1px solid var(--zi);background:#fff;color:var(--zi);border-radius:50%;cursor:pointer;display:grid;place-items:center}
+.strz button:disabled{opacity:.3;cursor:default}
+.strz svg{width:22px;height:22px}
+@media (min-width:1100px){.dz+.strz{display:none}}
+/* historia */
+.hist{--k:clamp(300px,24vw,560px)}
+.lata{background:#fff;display:flex;flex-direction:column;height:100%}
+.lata .fot{aspect-ratio:16/10;overflow:hidden;border:0;padding:0;background:#ccd;cursor:zoom-in;display:block;width:100%}
+.lata .fot img{width:100%;height:100%;object-fit:cover}
+.lata .fot.bw img{filter:grayscale(1) contrast(1.05)}
+.rok{display:flex;align-items:center;gap:10px;background:var(--zi);color:var(--zo);padding:8px 16px;font-family:Slab,"Slab fb",Georgia,serif;font-weight:700;font-size:clamp(24px,1.6vw,32px);line-height:1.1;border-top:2px solid var(--zo)}
+.rok svg{width:15px;height:28px;flex:none}
+.rok svg.lw{transform:scaleX(-1)}
+.lata .tx{padding:18px 18px 22px}
+.lata h3{color:var(--zi)}
+.lata p{margin-top:8px;color:var(--mut);font-size:.97rem}
+.lata .pod{display:block;margin-top:12px;font-size:.82rem;color:var(--mut)}
+/* ciemna: dolacz */
+.ciem{background:var(--zi);color:#fff;position:relative;overflow:hidden}
+.ciem .obr{width:min(90vw,980px);right:-30vw;top:-12%;opacity:.16}
+@media (min-width:1100px){.ciem .obr{right:-8vw;top:50%;transform:translateY(-50%);width:min(52vw,1000px);opacity:.18}}
+.ciem .wrap{position:relative;z-index:2;display:grid;gap:clamp(32px,4vw,80px)}
+@media (min-width:1100px){.ciem .wrap{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:start}}
+.ciem h2{color:#fff}
+.ciem .lead{margin-top:16px;color:#dfe9e2;font-size:clamp(16.5px,.35vw + 15px,20px);max-width:52ch}
+.ciem ul{margin:26px 0 0;padding:0;list-style:none;display:grid;gap:14px;max-width:56ch}
+.ciem li{padding-left:34px;position:relative;color:#eef3ef}
+.ciem li svg{position:absolute;left:0;top:3px;width:20px;height:20px;color:var(--zo)}
+.ciem li b{color:#fff}
+.cyt{margin-top:32px;display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:center;max-width:56ch;border-top:1px solid rgba(255,255,255,.2);padding-top:26px}
+.cyt img{width:96px;height:96px;object-fit:cover;object-position:62% 30%;border-radius:50%;border:2px solid var(--zo)}
+.cyt p{font-size:.98rem;color:#eef3ef}
+.cyt b{display:block;color:#fff;margin-top:6px;font-size:.92rem}
+.form{background:#fff;color:var(--ink);padding:clamp(22px,2.4vw,40px);border-top:6px solid var(--zo)}
+.form h3{color:var(--zi);font-size:clamp(22px,1.5vw,28px)}
+.form>p{margin-top:6px;color:var(--mut);font-size:.95rem}
+.pola{display:grid;gap:14px;margin-top:20px}
+@media (min-width:600px){.pola{grid-template-columns:1fr 1fr}.pola .cal{grid-column:1/-1}}
+.form label{display:grid;gap:6px;font-weight:600;font-size:.92rem}
+.form input,.form select,.form textarea{font:inherit;font-size:16px;padding:13px 14px;border:1px solid #b9bfc3;border-radius:3px;background:#fff;color:var(--ink);width:100%}
+.form textarea{min-height:110px;resize:vertical}
+.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--zi);outline-offset:1px;border-color:var(--zi)}
+.form .btn{margin-top:18px;width:100%;background:var(--zi);color:#fff;box-shadow:inset 0 -3px 0 var(--zo)}
+.form .btn:hover{background:#0d3a1a}
+.form .ok{display:none;margin-top:14px;padding:12px 14px;background:var(--g);border-left:4px solid var(--zi);font-size:.95rem}
+/* galeria */
+.gal{--k:clamp(280px,24vw,600px)}
+.gal figure{margin:0}
+.gal .fot{aspect-ratio:4/3;overflow:hidden;border:0;padding:0;background:var(--g);cursor:zoom-in;display:block;width:100%}
+.gal .fot img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.gal .fot:hover img{transform:scale(1.03)}
+.gal figcaption{padding:12px 2px 0;font-size:.92rem;color:var(--mut);border-top:3px solid var(--zo);margin-top:-3px;position:relative}
+.gal figcaption b{display:block;color:var(--ink);font-size:1rem}
+/* aktualnosci */
+.akt-l{display:grid;gap:0;border-top:1px solid var(--line)}
+@media (min-width:1100px){.akt-l{grid-template-columns:repeat(3,minmax(0,1fr));gap:4vw;border-top:0}}
+.akt-l article{padding:22px 0;border-bottom:1px solid var(--line)}
+@media (min-width:1100px){.akt-l article{border-bottom:0;border-top:4px solid var(--zi);padding-top:22px}}
+.akt-l time{font-weight:700;color:var(--cz);font-size:.92rem}
+.akt-l h3{margin-top:6px;color:var(--zi)}
+.akt-l p{margin-top:8px;color:var(--mut);font-size:.98rem}
+/* kontakt */
+.kont{display:grid;gap:clamp(28px,4vw,72px)}
+@media (min-width:1000px){.kont{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:stretch}}
+.dane{display:grid;gap:22px;align-content:start}
+.dane div{border-top:1px solid var(--line);padding-top:16px}
+.dane span{display:block;font-size:.88rem;color:var(--mut)}
+.dane a,.dane strong{font-family:Slab,"Slab fb",Georgia,serif;font-weight:700;font-size:clamp(20px,1.4vw,27px);color:var(--zi);text-decoration:none;line-height:1.3}
+.dane a:hover{text-decoration:underline;text-decoration-color:var(--zo);text-decoration-thickness:3px}
+.mapa{min-height:340px;background:var(--g) url(img/fasada-600.webp) center/cover;position:relative;border-top:6px solid var(--zi)}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* stopka */
+.st{background:var(--zi2);color:#d5e0d8;padding:48px 0 26px;font-size:.95rem}
+.st .kol{display:grid;grid-template-columns:1fr 1fr;gap:26px 20px}
+@media (min-width:1000px){.st .kol{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+.st .firma{grid-column:1/-1;display:flex;gap:16px;align-items:center}
+@media (min-width:1000px){.st .firma{grid-column:auto}}
+.st .firma img{width:72px;height:72px;flex:none}
+.st .firma p{color:#fff;font-family:Slab,"Slab fb",Georgia,serif;font-weight:700;font-size:1.05rem;line-height:1.3}
+.st .firma small{display:block;font:400 .9rem/1.45 Inter,Arial,sans-serif;color:#c9d6cd;margin-top:4px}
+.st h4{margin:0 0 10px;color:var(--zo);font-family:Slab,"Slab fb",Georgia,serif;font-size:1rem}
+.st ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.st a{color:#e6eee8;text-decoration:none}
+.st a:hover{text-decoration:underline}
+.st .dol{margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,255,255,.14);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.88rem;color:#b9c8bd}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(6,22,11,.95);display:none;align-items:center;justify-content:center;padding:60px 12px}
+.lb.on{display:flex}
+.lb img{max-width:min(100%,1400px);max-height:100%;object-fit:contain}
+.lb button{position:absolute;top:10px;right:10px;width:48px;height:48px;border-radius:50%;border:0;background:#fff;font-size:26px;line-height:1;cursor:pointer;color:var(--zi)}
+:focus-visible{outline:3px solid var(--zo);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <defs>
+  <symbol id="laur" viewBox="0 0 34 100"><g fill="currentColor"><path d="M32.3 87.6A40 40 0 0 1 28.5 14.0" fill="none" stroke="currentColor" stroke-width="2"/><ellipse cx="32.3" cy="87.6" rx="3.6" ry="8.2" transform="rotate(-188.0 32.3 87.6) translate(-4.5 0)"/><ellipse cx="19.8" cy="80.2" rx="3.6" ry="8.2" transform="rotate(-167.0 19.8 80.2) translate(-4.5 0)"/><ellipse cx="10.7" cy="68.8" rx="3.6" ry="8.2" transform="rotate(-146.0 10.7 68.8) translate(-4.5 0)"/><ellipse cx="6.3" cy="54.9" rx="3.6" ry="8.2" transform="rotate(-125.0 6.3 54.9) translate(-4.5 0)"/><ellipse cx="7.2" cy="40.3" rx="3.6" ry="8.2" transform="rotate(-104.0 7.2 40.3) translate(-4.5 0)"/><ellipse cx="13.2" cy="27.1" rx="3.6" ry="8.2" transform="rotate(-83.0 13.2 27.1) translate(-4.5 0)"/><ellipse cx="23.6" cy="16.8" rx="3.6" ry="8.2" transform="rotate(-62.0 23.6 16.8) translate(-4.5 0)"/></g></symbol>
+  <symbol id="obr" viewBox="0 0 200 200"><g fill="none" stroke="currentColor"><circle cx="100" cy="100" r="96" stroke-width="3"/><circle cx="100" cy="100" r="88" stroke-width="1.2"/><circle cx="100" cy="100" r="14" stroke-width="2"/><circle cx="100" cy="100" r="5" stroke-width="2"/><g stroke-width=".55"><line x1="114.00" y1="100.00" x2="179.74" y2="67.78"/><line x1="113.73" y1="102.73" x2="171.92" y2="147.15"/><line x1="112.93" y1="105.36" x2="186.00" y2="100.75"/><line x1="111.64" y1="107.78" x2="148.40" y2="171.09"/><line x1="109.90" y1="109.90" x2="179.16" y2="133.60"/><line x1="107.78" y1="111.64" x2="117.51" y2="184.20"/><line x1="105.36" y1="112.93" x2="160.28" y2="161.34"/><line x1="102.73" y1="113.73" x2="83.96" y2="184.49"/><line x1="100.00" y1="114.00" x2="132.22" y2="179.74"/><line x1="97.27" y1="113.73" x2="52.85" y2="171.92"/><line x1="94.64" y1="112.93" x2="99.25" y2="186.00"/><line x1="92.22" y1="111.64" x2="28.91" y2="148.40"/><line x1="90.10" y1="109.90" x2="66.40" y2="179.16"/><line x1="88.36" y1="107.78" x2="15.80" y2="117.51"/><line x1="87.07" y1="105.36" x2="38.66" y2="160.28"/><line x1="86.27" y1="102.73" x2="15.51" y2="83.96"/><line x1="86.00" y1="100.00" x2="20.26" y2="132.22"/><line x1="86.27" y1="97.27" x2="28.08" y2="52.85"/><line x1="87.07" y1="94.64" x2="14.00" y2="99.25"/><line x1="88.36" y1="92.22" x2="51.60" y2="28.91"/><line x1="90.10" y1="90.10" x2="20.84" y2="66.40"/><line x1="92.22" y1="88.36" x2="82.49" y2="15.80"/><line x1="94.64" y1="87.07" x2="39.72" y2="38.66"/><line x1="97.27" y1="86.27" x2="116.04" y2="15.51"/><line x1="100.00" y1="86.00" x2="67.78" y2="20.26"/><line x1="102.73" y1="86.27" x2="147.15" y2="28.08"/><line x1="105.36" y1="87.07" x2="100.75" y2="14.00"/><line x1="107.78" y1="88.36" x2="171.09" y2="51.60"/><line x1="109.90" y1="90.10" x2="133.60" y2="20.84"/><line x1="111.64" y1="92.22" x2="184.20" y2="82.49"/><line x1="112.93" y1="94.64" x2="161.34" y2="39.72"/><line x1="113.73" y1="97.27" x2="184.49" y2="116.04"/></g></g></symbol>
+ </defs>
+</svg>
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Warszawskie Towarzystwo Cyklistów (1886), strona główna"><img src="img/logo-192.webp" srcset="img/logo-96.webp 96w, img/logo-192.webp 192w" sizes="64px" width="64" height="64" alt=""><span>Warszawskie Towarzystwo Cyklistów<small>od 1886 roku</small></span></a>
+    <nav class="nav" aria-label="Menu główne">
+      <a class="akt" href="#top" aria-current="page">Strona główna</a>
+      <a href="#dzialamy">Co robimy</a>
+      <a href="#historia">Historia</a>
+      <a href="#galeria">Galerie</a>
+      <a href="#aktualnosci">Aktualności</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="tel" href="tel:+48794000544">tel. 794 000 544</a>
+    <a class="btn" href="#dolacz">Dołącz do WTC</a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="mob"><i></i></button>
+  </div>
+</header>
+<div class="mob" id="mob">
+  <a href="#top">Strona główna</a>
+  <a href="#dzialamy">Co robimy</a>
+  <a href="#historia">Historia</a>
+  <a href="#galeria">Galerie</a>
+  <a href="#aktualnosci">Aktualności</a>
+  <a href="#kontakt">Kontakt</a>
+  <a class="btn" href="#dolacz">Dołącz do WTC</a>
+  <p>tel. <a href="tel:+48794000544" style="display:inline;border:0;padding:0;font:inherit;color:inherit">794 000 544</a><br>biuro@wtc.waw.pl</p>
+</div>
+
+<main id="tresc">
+<section class="hero" id="top">
+  <picture>
+    <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w, img/hero-m-1080.webp 1080w" sizes="100vw">
+    <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" sizes="100vw" width="2400" height="1800" fetchpriority="high" alt="Członkowie Warszawskiego Towarzystwa Cyklistów z rowerami na placu Zamkowym w Warszawie, rozpoczęcie sezonu 2024">
+  </picture>
+  <div class="wrap hero-in">
+    <h1>Klub kolarski w Warszawie - jeździmy razem od 1886 roku</h1>
+    <p class="lead">Warszawskie Towarzystwo Cyklistów to jedno z najstarszych towarzystw sportowych w Polsce. Organizujemy wyścigi i wyjazdy rowerowe, a w każdą środę spotykamy się w siedzibie klubu.</p>
+    <p class="adr">Siedziba: ul. Jerzego Waldorffa 34, Warszawa</p>
+    <a class="btn" href="#dolacz">Jak dołączyć do WTC <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+
+<section class="sek" id="dzialamy">
+  <div class="wrap">
+    <div class="glowa bok">
+      <h2>Kontynuujemy wielkie tradycje klubowe</h2>
+      <p>W Towarzystwie jeżdżą byli mistrzowie i obecni świetni cykliści. Razem wyjeżdżamy na trasy, startujemy w zawodach i pamiętamy o ważnych wydarzeniach kolarskich z ubiegłych lat.</p>
+    </div>
+    <div class="tor dz" id="tor-dz">
+      <article class="kd">
+        <button class="fot" data-big="img/las-1200.webp" aria-label="Powiększ zdjęcie: rajd śladami historii WTC"><img src="img/las-600.webp" width="600" height="450" loading="lazy" alt="Grupa kolarzy WTC na leśnej drodze podczas rajdu"></button>
+        <div class="tx"><h3>Rajdy i wyjazdy rowerowe</h3><p>Wspólne trasy po Mazowszu i dalsze wyjazdy: Nałęczów, Busko-Zdrój, Nowe Miasto nad Pilicą, Suwalszczyzna.</p><span class="pod">Rowerem po śladach historii WTC, 2021</span></div>
+      </article>
+      <article class="kd">
+        <button class="fot" data-big="img/sezon-1200.webp" aria-label="Powiększ zdjęcie: zakończenie sezonu"><img src="img/sezon-600.webp" width="600" height="450" loading="lazy" alt="Kolarze WTC w strojach klubowych na zakończeniu sezonu"></button>
+        <div class="tx"><h3>Sezon kolarski i zawody</h3><p>Otwarcie i zakończenie sezonu, Bielańska czasówka, mistrzostwa Polski cykloamatorów i wyścigi organizowane przez klub.</p><span class="pod">Zakończenie sezonu 2023</span></div>
+      </article>
+      <article class="kd">
+        <button class="fot" data-big="img/bicykl-1200.webp" aria-label="Powiększ zdjęcie: bicykl w Nałęczowie"><img src="img/bicykl-600.webp" width="600" height="450" loading="lazy" alt="Członek WTC z bicyklem i kolarze w Nałęczowie"></button>
+        <div class="tx"><h3>Historia na dwóch kołach</h3><p>Bicyklem po Nałęczowie śladami Bolesława Prusa, rajdy patriotyczne i rocznice Powstania Warszawskiego.</p><span class="pod">WTC i Bolesław Prus - bicyklem po Nałęczowie, 2024</span></div>
+      </article>
+      <article class="kd">
+        <button class="fot" data-big="img/srody-720.webp" aria-label="Powiększ zdjęcie: spotkanie członków"><img src="img/srody-720.webp" width="720" height="405" loading="lazy" alt="Członkowie WTC przy wspólnym stole w siedzibie klubu"></button>
+        <div class="tx"><h3>Spotkania w każdą środę</h3><p>Co tydzień rozmawiamy o bieżącej działalności Towarzystwa i planujemy kolejne wyjazdy. W klubie działa też Koło Seniora.</p><span class="pod">Uroczystość wigilijna WTC, 2013</span></div>
+      </article>
+    </div>
+    <div class="strz" data-tor="tor-dz"><button aria-label="Poprzednie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button><button aria-label="Następne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+</section>
+
+<section class="sek sz" id="historia">
+  <div class="wrap">
+    <div class="glowa bok">
+      <h2>Od bicykla do medalu olimpijskiego</h2>
+      <p>Towarzystwo powstało w 1886 roku z inicjatywy Edwarda Chrapowickiego. Na początku miało charakter elitarny: niełatwo było dołączyć, a składki były wysokie. Członkami byli m.in. Bolesław Prus i Henryk Sienkiewicz.</p>
+    </div>
+    <div class="tor hist" id="tor-hist">
+      <article class="lata">
+        <div class="rok"><svg viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg>1886<svg class="lw" viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg></div>
+        <button class="fot" data-big="img/bicykl-1200.webp" aria-label="Powiększ zdjęcie: bicykl"><img src="img/bicykl-600.webp" width="600" height="450" loading="lazy" alt="Bicykl z kolekcji WTC podczas pokazu w Nałęczowie"></button>
+        <div class="tx"><h3>Początek Towarzystwa</h3><p>WTC zakłada Edward Chrapowicki. Wśród członków są Bolesław Prus i Henryk Sienkiewicz.</p><span class="pod">Na zdjęciu: pokaz bicykla ze zbiorów WTC, Nałęczów 2024</span></div>
+      </article>
+      <article class="lata">
+        <div class="rok"><svg viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg>1924<svg class="lw" viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg></div>
+        <button class="fot" data-big="img/fasada-1000.webp" aria-label="Powiększ zdjęcie: ekspozycja na siedzibie WTC"><img src="img/fasada-600.webp" width="600" height="553" loading="lazy" alt="Ekspozycja na siedzibie WTC upamiętniająca medal olimpijski z Paryża 1924"></button>
+        <div class="tx"><h3>Pierwszy medal olimpijski dla Polski</h3><p>W Paryżu kolarze WTC zdobywają pierwszy w historii medal olimpijski dla Polski, w wyścigu na dystansie 4000 m.</p><span class="pod">Ekspozycja na skrzydle siedziby WTC, 2024</span></div>
+      </article>
+      <article class="lata">
+        <div class="rok"><svg viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg>1947<svg class="lw" viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg></div>
+        <button class="fot bw" data-big="img/leon-720.webp" aria-label="Powiększ zdjęcie z 1947 roku"><img src="img/leon-720.webp" width="720" height="405" loading="lazy" alt="Red. Bohdan Tomaszewski, Leon Bestry i sędziowie zawodów, 1 czerwca 1947"></button>
+        <div class="tx"><h3>Leon Bestry</h3><p>Jeden z najbardziej oddanych sympatyków kolarstwa, od 1937 roku honorowy członek Poznańskiego Towarzystwa Cyklistów i Motorzystów. Dziadek obecnego prezesa WTC.</p><span class="pod">Od lewej: red. Bohdan Tomaszewski, Leon Bestry, sędziowie zawodów, 1 czerwca 1947</span></div>
+      </article>
+      <article class="lata">
+        <div class="rok"><svg viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg>1980<svg class="lw" viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg></div>
+        <button class="fot bw" data-big="img/piatki-900.webp" aria-label="Powiększ zdjęcie z 1980 roku"><img src="img/piatki-600.webp" width="600" height="418" loading="lazy" alt="Piątkowe spotkanie Koła Seniora WTC w 1980 roku"></button>
+        <div class="tx"><h3>Piątkowe wieczory seniorów</h3><p>W każdy piątek seniorzy spotykali się przy ul. Stefana Jaracza i rozmawiali o dawnych i współczesnych wydarzeniach. Rozmowom nie było końca.</p><span class="pod">Spotkanie Koła Seniora WTC, 1980</span></div>
+      </article>
+      <article class="lata">
+        <div class="rok"><svg viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg>2024<svg class="lw" viewBox="0 0 34 100" aria-hidden="true"><use href="#laur"/></svg></div>
+        <button class="fot" data-big="img/pomnik-1200.webp" aria-label="Powiększ zdjęcie: rozpoczęcie sezonu 2024"><img src="img/pomnik-600.webp" width="600" height="450" loading="lazy" alt="Członkowie WTC w strojach klubowych podczas rozpoczęcia sezonu 2024"></button>
+        <div class="tx"><h3>100 lat od medalu z Paryża</h3><p>11 września 2024 roku w siedzibie przy ul. Jerzego Waldorffa 34 odbyła się uroczystość upamiętniająca medal olimpijski kolarzy WTC.</p><span class="pod">Na zdjęciu: rozpoczęcie sezonu 2024</span></div>
+      </article>
+    </div>
+    <div class="strz" data-tor="tor-hist"><button aria-label="Poprzednie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button><button aria-label="Następne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+</section>
+
+<section class="sek ciem" id="dolacz">
+  <svg class="obr" viewBox="0 0 200 200" aria-hidden="true"><use href="#obr"/></svg>
+  <div class="wrap">
+    <div>
+      <h2>Dołącz do Towarzystwa</h2>
+      <p class="lead">Mamy wiele planów, które powoli realizujemy, aby zapaść w pamięć przyszłym pokoleniom cyklistów. Zapraszamy wszystkich, którzy lubią jeździć na rowerze i chcą robić to w dobrym towarzystwie.</p>
+      <ul>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2.4"/><path d="M12 2v7.6M12 14.4V22M2 12h7.6M14.4 12H22"/></svg><b>Wspólne wyjazdy i rajdy</b> - od tras po Warszawie i okolicach po dalsze wyjazdy krajoznawcze.</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2.4"/><path d="M12 2v7.6M12 14.4V22M2 12h7.6M14.4 12H22"/></svg><b>Zawody i sezon kolarski</b> - starty, czasówki i uroczyste otwarcie sezonu.</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2.4"/><path d="M12 2v7.6M12 14.4V22M2 12h7.6M14.4 12H22"/></svg><b>Środowe spotkania</b> - w siedzibie przy ul. Jerzego Waldorffa 34.</li>
+      </ul>
+      <div class="cyt">
+        <img src="img/prezes-720.webp" width="96" height="96" loading="lazy" alt="Dr hab. Jan Bestry z członkami klubu">
+        <p>„Stwórzmy dużą grupę, która razem zwiększy bezpieczeństwo na drodze!”<b>Dr hab. Jan Bestry, prezes WTC, o akcji „Jedziesz - Zapal Światło”</b></p>
+      </div>
+    </div>
+    <form class="form" id="form" novalidate>
+      <h3>Napisz do nas</h3>
+      <p>Odpowiemy i podpowiemy, jak zostać członkiem WTC albo dołączyć do najbliższego wyjazdu.</p>
+      <div class="pola">
+        <label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+        <label>Telefon lub e-mail<input name="kontakt" autocomplete="email" required></label>
+        <label class="cal">Temat<select name="temat"><option>Chcę dołączyć do WTC</option><option>Pytanie o wyjazd lub rajd</option><option>Współpraca i wydarzenia</option><option>Inna sprawa</option></select></label>
+        <label class="cal">Wiadomość<textarea name="wiad" placeholder="Np. jeżdżę rekreacyjnie, chciałbym dołączyć do wyjazdów"></textarea></label>
+      </div>
+      <button class="btn" type="submit">Wyślij wiadomość</button>
+      <p class="ok" id="ok">Dziękujemy! To podgląd strony - formularz nie wysyła jeszcze wiadomości.</p>
+    </form>
+  </div>
+</section>
+
+<section class="sek" id="galeria">
+  <div class="wrap">
+    <div class="glowa bok">
+      <h2>Z naszych wyjazdów i uroczystości</h2>
+      <p>Kilka zdjęć z ostatnich sezonów. Pełne galerie z każdego rajdu i wydarzenia będą na osobnej podstronie, od najnowszych.</p>
+    </div>
+    <div class="tor gal" id="tor-gal">
+      <figure><button class="fot" data-big="img/droga-1200.webp" aria-label="Powiększ zdjęcie: Rowerem do Nałęczowa"><img src="img/droga-600.webp" width="600" height="450" loading="lazy" alt="Rowerem do Nałęczowa - WTC i Bolesław Prus - bicyklem po Nałęczowie, 2024"></button><figcaption><b>Rowerem do Nałęczowa</b>WTC i Bolesław Prus - bicyklem po Nałęczowie, 2024</figcaption></figure>
+<figure><button class="fot" data-big="img/prus-1200.webp" aria-label="Powiększ zdjęcie: Rozpoczęcie sezonu"><img src="img/prus-600.webp" width="600" height="450" loading="lazy" alt="Rozpoczęcie sezonu - Rozpoczęcie sezonu 2024"></button><figcaption><b>Rozpoczęcie sezonu</b>Rozpoczęcie sezonu 2024</figcaption></figure>
+<figure><button class="fot" data-big="img/bal-1024.webp" aria-label="Powiększ zdjęcie: Nałęczów w strojach z epoki"><img src="img/bal-600.webp" width="600" height="450" loading="lazy" alt="Nałęczów w strojach z epoki - WTC i Bolesław Prus - bicyklem po Nałęczowie, 2024"></button><figcaption><b>Nałęczów w strojach z epoki</b>WTC i Bolesław Prus - bicyklem po Nałęczowie, 2024</figcaption></figure>
+<figure><button class="fot" data-big="img/lesna-1200.webp" aria-label="Powiększ zdjęcie: Na leśnym szlaku"><img src="img/lesna-600.webp" width="600" height="450" loading="lazy" alt="Na leśnym szlaku - Rowerem po śladach historii WTC, 2021"></button><figcaption><b>Na leśnym szlaku</b>Rowerem po śladach historii WTC, 2021</figcaption></figure>
+<figure><button class="fot" data-big="img/rajd-1200.webp" aria-label="Powiększ zdjęcie: Postój na trasie"><img src="img/rajd-600.webp" width="600" height="450" loading="lazy" alt="Postój na trasie - Rowerem po śladach historii WTC, 2021"></button><figcaption><b>Postój na trasie</b>Rowerem po śladach historii WTC, 2021</figcaption></figure>
+<figure><button class="fot" data-big="img/wystawa-999.webp" aria-label="Powiększ zdjęcie: Wystawa w plenerze"><img src="img/wystawa-600.webp" width="600" height="615" loading="lazy" alt="Wystawa w plenerze - Wystawa Muzeum Sportu i Turystyki, 2023"></button><figcaption><b>Wystawa w plenerze</b>Wystawa Muzeum Sportu i Turystyki, 2023</figcaption></figure>
+<figure><button class="fot" data-big="img/drezyna-710.webp" aria-label="Powiększ zdjęcie: Pojazdy z dawnych lat"><img src="img/drezyna-600.webp" width="600" height="622" loading="lazy" alt="Pojazdy z dawnych lat - Wystawa Muzeum Sportu i Turystyki, 2023"></button><figcaption><b>Pojazdy z dawnych lat</b>Wystawa Muzeum Sportu i Turystyki, 2023</figcaption></figure>
+
+    </div>
+    <div class="strz" data-tor="tor-gal"><button aria-label="Poprzednie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button><button aria-label="Następne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+</section>
+
+<section class="sek sz" id="aktualnosci">
+  <div class="wrap">
+    <div class="glowa"><h2>Aktualności</h2></div>
+    <div class="akt-l">
+      <article><time datetime="2025-03-22">22 marca 2025</time><h3>Przeżyjmy to jeszcze raz</h3><p>Wideo z majowej imprezy „WTC i Bolesław Prus - bicyklem po Nałęczowie” dla wszystkich, którzy nie zdążyli go jeszcze obejrzeć.</p></article>
+      <article><time datetime="2024-10-15">15 października 2024</time><h3>Relacja z uroczystości 100-lecia medalu olimpijskiego</h3><p>11 września 2024 roku w siedzibie WTC uczciliśmy pierwszy medal olimpijski dla Polski zdobyty przez kolarzy Towarzystwa.</p></article>
+      <article><time datetime="2024-08-23">23 sierpnia 2024</time><h3>Urodziny Bolesława Prusa w Nałęczowie</h3><p>Wspólnie ze Stowarzyszeniem Wzorem Ziemianek, Nałęczowskim Ośrodkiem Kultury i Gminą Nałęczów zaprosiliśmy na urodziny pisarza.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="kontakt">
+  <div class="wrap kont">
+    <div>
+      <div class="glowa"><h2>Kontakt</h2><p>Warszawskie Towarzystwo Cyklistów 1886</p></div>
+      <div class="dane">
+        <div><span>Adres korespondencyjny</span><strong>ul. Jerzego Waldorffa 34<br>01-494 Warszawa</strong></div>
+        <div><span>Telefon</span><a href="tel:+48794000544">794 000 544</a></div>
+        <div><span>E-mail</span><a href="mailto:biuro@wtc.waw.pl">biuro@wtc.waw.pl</a></div>
+        <div><span>Facebook</span><a href="https://www.facebook.com/WarszawskieTowarzystwoCyklistow1886/" rel="noopener">Warszawskie Towarzystwo Cyklistów 1886</a></div>
+      </div>
+    </div>
+    <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Jerzego+Waldorffa+34,+01-494+Warszawa&amp;output=embed" aria-label="Mapa dojazdu do siedziby WTC"></div>
+  </div>
+</section>
+</main>
+
+<footer class="st">
+  <div class="wrap">
+    <div class="kol">
+      <div class="firma"><img src="img/logo-192.webp" width="72" height="72" alt="Logo Warszawskiego Towarzystwa Cyklistów"><p>Warszawskie Towarzystwo Cyklistów (1886)<small>ul. Jerzego Waldorffa 34, 01-494 Warszawa</small></p></div>
+      <div><h4>Towarzystwo</h4><ul><li><a href="#dzialamy">Co robimy</a></li><li><a href="#historia">Historia</a></li><li><a href="#dolacz">Dołącz do WTC</a></li></ul></div>
+      <div><h4>Z życia klubu</h4><ul><li><a href="#aktualnosci">Aktualności</a></li><li><a href="#galeria">Galerie</a></li><li><a href="https://www.facebook.com/WarszawskieTowarzystwoCyklistow1886/" rel="noopener">Facebook</a></li></ul></div>
+      <div><h4>Kontakt</h4><ul><li><a href="tel:+48794000544">794 000 544</a></li><li><a href="mailto:biuro@wtc.waw.pl">biuro@wtc.waw.pl</a></li></ul></div>
+    </div>
+    <div class="dol"><span>© <span id="rok">2026</span> Warszawskie Towarzystwo Cyklistów (1886)</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=wtc.waw.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+  </div>
+</footer>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie"><button aria-label="Zamknij">×</button><img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div>
+<script src="app.js" defer></script>
+</body>
+</html>
